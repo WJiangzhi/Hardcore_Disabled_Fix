@@ -1,6 +1,6 @@
 # Hardcore Disabled Fix
 
-A lightweight client-side Fabric mod that fixes and restores usability of certain world options when playing in Hardcore mode.
+A lightweight client-side mod that fixes and restores usability of certain world options when playing in Hardcore mode.
 
 ---
 
