@@ -5,7 +5,7 @@ plugins {
 }
 
 base {
-    archivesName.set("HardcoreLanFix-${mod.loader}")
+    archivesName.set("HardcoreDisabledFix-${mod.loader}")
 } // fix name
 
 modSettings {
