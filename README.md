@@ -23,13 +23,13 @@ It is designed for development, LAN testing, and personal gameplay flexibility.
 
 ## Pictures
 
-![The Open To LAN Screen in Hardcore](https://cdn.modrinth.com/data/rhhNhPqF/images/06ce4ceabc142191cc9cf79635eda2ce945ef84c_350.webp)
+![The Open To LAN Screen in Hardcore](https://cdn.modrinth.com/data/rhhNhPqF/images/06ce4ceabc142191cc9cf79635eda2ce945ef84c.png)
 - The Open To LAN Screen in Hardcore
 
-![The World Options Screen in Hardcore](https://cdn.modrinth.com/data/rhhNhPqF/images/bc93bbf934d084182871594868e1b30ee699a556_350.webp)
+![The World Options Screen in Hardcore](https://cdn.modrinth.com/data/rhhNhPqF/images/bc93bbf934d084182871594868e1b30ee699a556.png)
 - The World Options Screen in Hardcore
 
-![Use command in Hardcore](https://cdn.modrinth.com/data/rhhNhPqF/images/08d923b0026734dfda837fc7c94c58e8448160fe_350.webp)
+![Use command in Hardcore](https://cdn.modrinth.com/data/rhhNhPqF/images/08d923b0026734dfda837fc7c94c58e8448160fe.png)
 - Use command in Hardcore
 
 ---
