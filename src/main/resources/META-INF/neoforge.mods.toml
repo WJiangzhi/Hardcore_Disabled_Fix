@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "*"
+issueTrackerURL = "https://github.com/WJiangzhi/HardcoreDisabledFix/issues"
+license = "${license}"
+
+[[mods]]
+modId = "${id}"
+version = "${version}"
+displayName = "${name}"
+displayURL="https://github.com/WJiangzhi/HardcoreDisabledFix"
+authors = [${authors}]
+description = '''
+${description}
+'''
+logoFile = "icon.png"
+logoBlur = false
+
+[[mixins]]
+config = "${id}.mixins.json"
+
+[[dependencies.${id}]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${neoforge_mc_version_range}"
+ordering = "NONE"
+side = "CLIENT"
