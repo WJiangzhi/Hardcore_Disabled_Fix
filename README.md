@@ -4,7 +4,7 @@ A lightweight client-side Fabric mod that fixes and restores usability of certai
 
 ---
 
-## ✨ Overview
+## Overview
 
 In vanilla Minecraft 26.2+, Hardcore mode restricts multiple gameplay and world configuration options, including command access and certain multiplayer-related settings.  
 This mod adjusts the UI behavior to make those options accessible again in a controlled and consistent way.
@@ -13,7 +13,7 @@ It is designed for development, LAN testing, and personal gameplay flexibility.
 
 ---
 
-## ⚙ Features
+## Features
 
 - Restores access to disabled Hardcore UI options
 - Unlocks “Allow Commands” toggle in world options screen
@@ -23,7 +23,7 @@ It is designed for development, LAN testing, and personal gameplay flexibility.
 
 ---
 
-## 🧩 Compatibility
+## Compatibility
 
 - Fabric Loader
 - Minecraft (check project version for compatibility)
@@ -31,7 +31,7 @@ It is designed for development, LAN testing, and personal gameplay flexibility.
 
 ---
 
-## 📌 Notes
+## Notes
 
 This mod modifies user interface restrictions only.  
 It does not alter world generation, combat rules, or survival mechanics.
@@ -42,4 +42,4 @@ Designed for debugging, testing, and advanced configuration usage.
 
 ## License
 
-[MIT]()
+[MIT](https://raw.githubusercontent.com/WJiangzhi/Hardcore_Disabled_Fix/refs/heads/master/LICENSE)

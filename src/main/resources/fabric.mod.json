@@ -7,9 +7,9 @@
   "description": "${description}",
   "authors": [${authors}],
   "contact": {
-    "homepage": "https://modrinth.com/mod/HardcoreDisabledFix",
-    "sources": "https://github.com/WJiangzhi/HardcoreDisabledFix",
-    "issues": "https://github.com/WJiangzhi/HardcoreDisabledFix/issues"
+    "homepage": "https://modrinth.com/mod/Hardcore_Disabled_Fix",
+    "sources": "https://github.com/WJiangzhi/Hardcore_Disabled_Fix",
+    "issues": "https://github.com/WJiangzhi/Hardcore_Disabled_Fix/issues"
   },
   "license": "${license}",
   "icon": "icon.png",
