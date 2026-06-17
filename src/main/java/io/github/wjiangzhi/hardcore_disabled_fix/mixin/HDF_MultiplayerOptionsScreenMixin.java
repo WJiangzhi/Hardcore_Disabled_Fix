@@ -34,7 +34,7 @@ public class HDF_MultiplayerOptionsScreenMixin {
     @Mutable
     private static Component TITLE;
     @Inject(method = "<clinit>", at = @At("TAIL"))
-    private static void HDF$_$TITLE(CallbackInfo ci) {
+    private static void HDF$$TITLE(CallbackInfo ci) {
         TITLE = Component.literal("*").append(Component.translatable("options.multiplayer.title").withStyle(ChatFormatting.ITALIC));
     }
 
@@ -43,7 +43,7 @@ public class HDF_MultiplayerOptionsScreenMixin {
     @Mutable
     private static Component OTHER_PLAYERS_HEADER;
     @Inject(method = "<clinit>", at = @At("TAIL"))
-    private static void HDF$_$OTHER_PLAYERS_HEADER(CallbackInfo ci) {
+    private static void HDF$$OTHER_PLAYERS_HEADER(CallbackInfo ci) {
         OTHER_PLAYERS_HEADER = Component.literal("")
                 .append(Component.translatable(
                         "menu.multiplayerOptions.otherPlayers.header"

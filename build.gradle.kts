@@ -5,7 +5,7 @@ plugins {
 }
 
 base {
-    archivesName.set("HardcoreDisabledFix-${mod.loader}")
+    archivesName.set("HDF-${mod.loader}")
 } // fix name
 
 modSettings {
@@ -32,8 +32,6 @@ publishMods {
     }
 
     curseforge {
-        clientRequired = false // Set as needed
-        serverRequired = true // Set as needed
         if (mod.isFabric) requires("fabric-api")
     }
 }

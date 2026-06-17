@@ -44,7 +44,7 @@ public class HDF_WorldOptionsScreenMixin {
     @Mutable
     private static Component TITLE;
     @Inject(method = "<clinit>", at = @At("TAIL"))
-    private static void HDF$_$TITLE(CallbackInfo ci) {
+    private static void HDF$$TITLE(CallbackInfo ci) {
         TITLE = Component.literal("*")
                 .append(
                         Component.translatable("options.worldOptions.title")
