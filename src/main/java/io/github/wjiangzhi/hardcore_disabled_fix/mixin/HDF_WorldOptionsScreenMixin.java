@@ -24,7 +24,7 @@ public class HDF_WorldOptionsScreenMixin {
                     target = "Lnet/minecraft/client/server/IntegratedServer;isHardcore()Z"
             )
     )
-    private boolean HDF$createAllowCommandsButton$isHardcore(boolean original) {
+    private boolean HDF_createAllowCommandsButton$isHardcore(boolean original) {
         return false;
     }
 
@@ -35,7 +35,7 @@ public class HDF_WorldOptionsScreenMixin {
                     target = "Lnet/minecraft/client/server/IntegratedServer;isHardcore()Z"
             )
     )
-    private boolean HDF$updateButton$isHardcore(boolean original) {
+    private boolean HDF_updateButton$isHardcore(boolean original) {
         return false;
     }
 
@@ -44,7 +44,7 @@ public class HDF_WorldOptionsScreenMixin {
     @Mutable
     private static Component TITLE;
     @Inject(method = "<clinit>", at = @At("TAIL"))
-    private static void HDF$$TITLE(CallbackInfo ci) {
+    private static void HDF_$$TITLE(CallbackInfo ci) {
         TITLE = Component.literal("*")
                 .append(
                         Component.translatable("options.worldOptions.title")

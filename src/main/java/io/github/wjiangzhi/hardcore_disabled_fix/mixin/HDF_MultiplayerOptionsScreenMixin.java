@@ -25,7 +25,7 @@ public class HDF_MultiplayerOptionsScreenMixin {
                     target = "Lnet/minecraft/client/server/IntegratedServer;isHardcore()Z"
             )
     )
-    private boolean HDF$init$isHardcore(boolean original) {
+    private boolean HDF_init$isHardcore(boolean original) {
         return false;
     }
 
@@ -34,7 +34,7 @@ public class HDF_MultiplayerOptionsScreenMixin {
     @Mutable
     private static Component TITLE;
     @Inject(method = "<clinit>", at = @At("TAIL"))
-    private static void HDF$$TITLE(CallbackInfo ci) {
+    private static void HDF_$$TITLE(CallbackInfo ci) {
         TITLE = Component.literal("*").append(Component.translatable("options.multiplayer.title").withStyle(ChatFormatting.ITALIC));
     }
 
@@ -43,7 +43,7 @@ public class HDF_MultiplayerOptionsScreenMixin {
     @Mutable
     private static Component OTHER_PLAYERS_HEADER;
     @Inject(method = "<clinit>", at = @At("TAIL"))
-    private static void HDF$$OTHER_PLAYERS_HEADER(CallbackInfo ci) {
+    private static void HDF_$$OTHER_PLAYERS_HEADER(CallbackInfo ci) {
         OTHER_PLAYERS_HEADER = Component.literal("")
                 .append(Component.translatable(
                         "menu.multiplayerOptions.otherPlayers.header"
